@@ -1,0 +1,29 @@
+{
+    "store.custom#landing": {
+        "blocks": [
+            "image",
+            "search-result-layout.customQuery"
+        ]
+    },
+    "image": {
+        "props": {
+            "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
+            "minWidth": "100%"
+        }
+    },
+    "search-result-layout.customQuery": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByReleaseDateDESC",
+                "hideUnavailableItems": true,
+                "maxItemsPerPage": 8,
+                "queryField": "Camera",
+                "mapField": "ft",
+                "skusFilter": "ALL_AVAILABLE"
+            }
+        },
+        "blocks": [
+            "search-result-layout.desktop"
+        ]
+    }
+}
